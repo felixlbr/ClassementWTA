@@ -1,5 +1,6 @@
 
 # ClassementWTA - Félix LIBURSKI (septembre - octobre 2021)
+Voici mon premier projet de programmation et mon premier projet en C. J'ai commencé à apprendre ce langage en septembre 2021 et je l'ai finalisé fin octobre de la même année. Ce premier projet m'a beaucoup aidé à m'améliorer en programmation et en algorithmie. Le code n'est pas du tout décomposé en différentes fonctions et dans différents fichiers <strong>.c</strong> et <strong>.h</strong> mais en tant que premier projet en C je suis satisfait.
 ## <center>Table of Contents </center>
 
 * [Présentation du projet](#chapter1)
@@ -48,6 +49,6 @@ Dans la fonction <strong>affichage_jousues_tournoi</strong>, on recherche l’in
 <div align="justify">Dans la fonction <strong>afficher_classement</strong>, on encadre d’abord les tournois qu’on doit afficher, c’est-à-dire en enregistrant les indices des 4 tournois (au plus) à afficher donc l’indice du 1er tournoi et l’indice du dernier tournoi à afficher. Ensuite, on a crée un tableau de type Joueuse appelé listeJoueuses pour y référencer sans doublons toutes les joueuses qu’on veut afficher. Puis, on a comparé chaque nom de joueuse du tableau listeJoueuses avec le nom des joueuses des tournois pour leur attribué leur points respectif. Ensuite, on a trié par points ce tableau listeJoueuses. Enfin, on a affiché le nom et les points de chaque joueuse du tableau listeJoueuses trié.</div>
 
 ## Bilan de projet <a class="anchor" id="chapter4"></a>
-Les résultats des tests sont valides. Nous sommes satisfaits d’avoir réussi à finalisé le projet et accomplit tous les sprints.
-La compréhension de chaque objectif des sprints ainsi que leur réalisation était une tâche complexe et longue. Malgré la validation des Sprints fournis, les recettes étaient beaucoup plus conséquentes et quelques bugs se sont révélés. On a su s’adapter et modifier notre code et corriger nos erreurs.
-Nos fonctions pourraient être plus optimisées notamment la fonction <strong>afficher_classement</strong>. On pourrait diviser nos fonctions en sous-fonctions ou bien les référencer sur un autre fichier « .h ».
+Les résultats des tests sont valides. Je suis satisfaits d’avoir réussi à finalisé mon premier projet et accomplit tous les sprints.
+La compréhension de chaque objectif des sprints ainsi que leur réalisation était une tâche complexe et longue. Malgré la validation des Sprints fournis, les recettes étaient beaucoup plus conséquentes et quelques bugs se sont révélés. J'ai su m’adapter et modifier mon code et corriger mes erreurs.
+Mes fonctions pourraient être plus optimisées notamment la fonction <strong>afficher_classement</strong>. J'aurais pu diviser les fonctions en sous-fonctions ou bien les référencer sur un autre fichier « .h ».
